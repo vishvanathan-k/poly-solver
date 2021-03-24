@@ -12,8 +12,8 @@ class MyWindow(Window):
         el = m.sqrt(d)
         alpha = ((-b + el)/(2*a)) 
         beta = ((-b - el)/(2*a))
-        textBlock3.Text = alpha
-        textBlock4.Text = beta
+        self.textBox3.Text = str(alpha)
+        self.textBox4.Text = str(beta)
         pass   
 
 if __name__ == '__main__':
